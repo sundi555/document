@@ -42,7 +42,7 @@ App没有成功部署，主要有两种情况，一是App订阅失败，二是Ap
 
         请联系WISE-PaaS.SRE（WISE-PaaS.SRE@advantech.com）增加点数，再进行订阅App。
 
-- 空间不足，导致订阅App失败  
+- 空间资源不足，导致订阅App失败  
 
     - 此种情况，选择部署的workspace或namespace时，UI会提示如下错误
 
