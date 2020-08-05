@@ -58,11 +58,11 @@ App没有成功部署，主要有两种情况，一是App订阅失败，二是Ap
     若订阅App时，UI出现如下几种错误，请联系WISE-PaaS.SRE（WISE-PaaS.SRE@advantech.com）解决
     - 错误1
 
-          ![clienttoken失效-listing](/image/clienttoken失效-listing.png)
+         ![clienttoken失效-listing](/image/clienttoken失效-listing.png)
 
     - 错误2
 
-          ![clinettoken失效-order](/image/clinettoken失效-order.png)
+         ![clinettoken失效-order](/image/clinettoken失效-order.png)
 
     - 错误3
 
@@ -75,8 +75,6 @@ App没有成功部署，主要有两种情况，一是App订阅失败，二是Ap
     - 错误5
 
        ![app is subscribe](/image/app-is-subscribe.png)
-
-注：除上述几点情况，App订阅失败，请先打开F12，找到调用失败的Api，查看返回的response，是否是上述情况的一种，如若都不是，请联系WISE-PaaS.SRE（WISE-PaaS.SRE@advantech.com），并说明订阅情况。
 
 当App订阅成功后，即Ui上已经提示如下图信息，等待5min左右，namespace仍然没有部署订阅的App，那么App可能已经部署失败了。App部署失败，需要去排查Catalog api及Appbuy api的log信息，才能得出App部署失败的确切原因。
 
