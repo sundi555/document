@@ -54,8 +54,7 @@ App没有成功部署，主要有两种情况，一是App订阅失败，二是Ap
 
       - 若购买的General Workspace，目前请联系WISE-PaaS.SRE（WISE-PaaS.SRE@advantech.com）对General Workspace进行扩容（扩容相当于加购General Workspace，这部分需要收费）。后续会有UI界面支持用户自主对General Workspace扩容
 
-- 其他情况导致订阅App失败  
-    若订阅App时，UI出现如下几种错误，请联系WISE-PaaS.SRE（WISE-PaaS.SRE@advantech.com）解决
+- 除上述情况，订阅App时，UI提示如下错误，请联系WISE-PaaS.SRE（WISE-PaaS.SRE@advantech.com）解决
     - 错误1
 
          ![clienttoken失效-listing](/image/clienttoken失效-listing.png)
@@ -76,7 +75,7 @@ App没有成功部署，主要有两种情况，一是App订阅失败，二是Ap
 
        ![app is subscribe](/image/app-is-subscribe.png)
 
-当App订阅成功后，即Ui上已经提示如下图信息，等待5min左右，namespace仍然没有部署订阅的App，那么App可能已经部署失败了。App部署失败，需要去排查Catalog api及Appbuy api的log信息，才能得出App部署失败的确切原因。
+当App订阅成功后，即UI上已经提示如下图信息，等待5min左右，namespace仍然没有部署订阅的App，那么App可能已经部署失败了。App部署失败，需要去排查Catalog api及Appbuy api的log信息，才能得出App部署失败的确切原因。
 
  ![subscription success](/image/subscription-success.png)
 
