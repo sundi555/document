@@ -9,19 +9,18 @@ App部署失败，主要有两种情况，一是App订阅失败，二是App部�
 - 订阅号User订阅App失败  
 
     - 由于只有订阅号下的Admin用户及Gloabl Admin用户可以订阅App，订阅号下的User用户订阅App时，UI会提示如下错误
-        
-          
-        ![subscription user](/image/subscription user.png)
+ 
+       ![subscription user](/image/subscription user.png)
 
     - 解决方法
 
       - 使用订阅号下的Admin用户订阅App（可通过SSO Portal查看订阅号下的Admin用户）
 
-         ![subscribe admin](/image/subscribe admin.png)
+        ![subscribe admin](/image/subscribe admin.png)
 
       - 修改订阅号下的User为Admin用户，然后订阅App（企业账号Admin有权限修改）
 
-         ![modify subscribe role](/image/modify subscribe role.png)
+        ![modify subscribe role](/image/modify subscribe role.png)
 
 - 未付费用户且非内部用户订阅App失败
 
@@ -41,7 +40,7 @@ App部署失败，主要有两种情况，一是App订阅失败，二是App部�
 
     - 此种情况，UI会提示如下错误
 
-        ![ispaid=true, wp is not enough](/image/ispaid=true, wp is not enough.png)
+       ![ispaid=true, wp is not enough](/image/ispaid=true, wp is not enough.png)
 
     - 解决方法
 
@@ -51,7 +50,7 @@ App部署失败，主要有两种情况，一是App订阅失败，二是App部�
 
     - 此种情况，选择部署的workspace或namespace时，UI会提示如下错误
 
-        ![resources is not enough](/image/resources is not enough.png)
+       ![resources is not enough](/image/resources is not enough.png)
 
     - 解决方法
 
@@ -89,7 +88,7 @@ App部署失败，主要有两种情况，一是App订阅失败，二是App部�
 
     - 此种情况，UI会提示如下错误
 
-        ![crmid is not in mkp](/image/crmid is not in mkp.png)
+       ![crmid is not in mkp](/image/crmid is not in mkp.png)
 
     - 解决方法
 
@@ -99,7 +98,7 @@ App部署失败，主要有两种情况，一是App订阅失败，二是App部�
 
     - 此种情况，UI会提示如下错误
 
-        ![app is subscribe](/image/app is subscribe.png)
+       ![app is subscribe](/image/app is subscribe.png)
 
     - 解决方法
 
@@ -111,7 +110,7 @@ App部署失败，主要有两种情况，一是App订阅失败，二是App部�
 
 App订阅成功后，即catalog ui上已经提示如下图信息，等待5min左右，namespace仍然没有部署订阅的App，那么App可能已经部署失败了。App部署失败，需要去排查Catalog api及Appbuy api的log信息，才能得出App部署失败的确切原因。
 
-  ![subscription success](/image/subscription success.png)
+ ![subscription success](/image/subscription success.png)
 
 - appbuy部署失败常见的几种情况
   - 空间资源不够
