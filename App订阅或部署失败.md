@@ -63,7 +63,7 @@ App没有成功部署，主要有两种情况，一是App订阅失败，二是Ap
 
          ![clinettoken失效-order](/image/clinettoken失效-order.png)
 
-    - UI上提示 The App has failed to subscribe，具体如下图
+    - UI上提示 The App has failed to subscribe，没有明确错误码信息，具体如下图
 
         ![createorder失败](/image/createorder失败.png)
 
