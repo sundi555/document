@@ -103,6 +103,7 @@ App部署失败，主要有两种情况，一是App订阅失败，二是App部�
     - 解决方法
 
         请联系WISE-PaaS.SRE（WISE-PaaS.SRE@advantech.com）解决。
+    注：Confirm连续点击两次，UI上也会提示这种错误，如果确定是由于Confirm点击两次导致的错误，请在5min内查看namespace是否已部署App，若5min过后，仍然没有部署，请联系WISE-PaaS.SRE（WISE-PaaS.SRE@advantech.com）解决
 
 注：除上述几点外，App订阅失败，请先打开F12，找到调用失败的Api，查看返回的response，是否是上述情况的一种，如若都不是，请联系WISE-PaaS.SRE（WISE-PaaS.SRE@advantech.com），并说明订阅情况。
 
