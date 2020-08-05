@@ -17,17 +17,17 @@ App部署失败，主要有两种情况，一是App订阅失败，二是App部�
 
       - 使用订阅号下的Admin用户订阅App（可通过SSO Portal查看订阅号下的Admin用户）
 
-            ![subscribe admin](/image/subscribe admin.png)
+          ![subscribe admin](/image/subscribe admin.png)
 
       - 修改订阅号下的User为Admin用户，然后订阅App（企业账号Admin有权限修改）
 
-        ![modify subscribe role](/image/modify subscribe role.png)
+          ![modify subscribe role](/image/modify subscribe role.png)
 
 - 未付费用户且非内部用户订阅App失败
 
     - 此种情况，UI会提示如下错误
 
-          ![ispaid=false](/image/ispaid=false.png)
+         ![ispaid=false](/image/ispaid=false.png)
 
     - 解决办法
 
