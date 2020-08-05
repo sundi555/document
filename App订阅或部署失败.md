@@ -55,23 +55,23 @@ App没有成功部署，主要有两种情况，一是App订阅失败，二是Ap
       - 若购买的General Workspace，目前请联系WISE-PaaS.SRE（WISE-PaaS.SRE@advantech.com）对General Workspace进行扩容（扩容相当于加购General Workspace，这部分需要收费）。后续会有UI界面支持用户自主对General Workspace扩容
 
 - 除上述情况，订阅App时，UI提示如下错误，请联系WISE-PaaS.SRE（WISE-PaaS.SRE@advantech.com）解决
-    - 错误1
+    - UI上提示400，listing system get service Plan failed，具体如下图
 
          ![clienttoken失效-listing](/image/clienttoken失效-listing.png)
 
-    - 错误2
+    - UI上提示500，按F12，查看api response返回order create failed，具体如下图
 
          ![clinettoken失效-order](/image/clinettoken失效-order.png)
 
-    - 错误3
+    - UI上提示 The App has failed to subscribe，具体如下图
 
         ![createorder失败](/image/createorder失败.png)
 
-    - 错误4
+    - UI上提示Account not found in mkp，具体如下图
 
        ![crmid is not in mkp](/image/crmid-is-not-in-mkp.png)
 
-    - 错误5
+    - UI上提示service name had been subscribed，具体如下图
 
        ![app is subscribe](/image/app-is-subscribe.png)
 
