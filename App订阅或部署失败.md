@@ -28,7 +28,7 @@ App部署失败，主要有两种情况，一是App订阅失败，二是App部�
 
          ![ispaid=false](/image/ispaid=false.png)
 
-    - 解决办法
+    - 解决方法
 
       - 首先通过SSO Protal查看订阅号付费类型，如图
 
@@ -108,11 +108,11 @@ App部署失败，主要有两种情况，一是App订阅失败，二是App部�
 
 #### App部署失败
 
-App订阅成功后，即catalog ui上已经提示如下图信息，等待5min左右，namespace仍然没有部署订阅的App，那么App可能已经部署失败了。App部署失败，需要去排查Catalog api及Appbuy api的log信息，才能得出App部署失败的确切原因。
+App订阅成功后，即Ui上已经提示如下图信息，等待5min左右，namespace仍然没有部署订阅的App，那么App可能已经部署失败了。App部署失败，需要去排查Catalog api及Appbuy api的log信息，才能得出App部署失败的确切原因。
 
  ![subscription success](/image/subscription-success.png)
 
-- appbuy部署失败常见的几种情况
+- App部署失败常见的几种情况
   - 空间资源不够
   - DB serviceinstance已关联过该App
   - DB serviceinstance不存在
