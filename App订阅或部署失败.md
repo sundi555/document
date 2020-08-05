@@ -40,7 +40,7 @@ App部署失败，主要有两种情况，一是App订阅失败，二是App部�
 
     - 此种情况，UI会提示如下错误
 
-       ![ispaid=true, wp is not enough](/image/ispaid=true, wp-is-not-enough.png)
+       ![ispaid=true, wp is not enough](/image/ispaid=truewp-is-not-enough.png)
 
     - 解决方法
 
