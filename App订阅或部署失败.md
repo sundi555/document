@@ -10,6 +10,7 @@ App部署失败，主要有两种情况，一是App订阅失败，二是App部�
 
     - 由于只有订阅号下的Admin用户及Gloabl Admin用户可以订阅App，订阅号下的User用户订阅App时，UI会提示如下错误
         
+          
           ![subscription user](/image/subscription user.png)
 
     - 解决方法
