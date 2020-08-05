@@ -54,9 +54,7 @@ App部署失败，主要有两种情况，一是App订阅失败，二是App部�
 
   - 解决方法
 
-    - 若购买的是Dedicated Cluster，请自行对工作空间进行扩容，操作手册如下：
-
-    ​       https://docs.wise-paas.advantech.com/zh-CN/Guides_and_API_References/Cloud_Services/1589509684297039988/1589890089018143254/v1.0.0   
+    - 若购买的是Dedicated Cluster，请自行对工作空间进行扩容，操作手册请参考：https://docs.wise-paas.advantech.com/zh-CN/Guides_and_API_References/Cloud_Services/1589509684297039988/1589890089018143254/v1.0.0   
 
     - 若购买的General Workspace，目前请联系WISE-PaaS.SRE（WISE-PaaS.SRE@advantech.com）对General Workspace进行扩容（扩容相当于加购General Workspace，这部分需要收费）。后续会有UI界面支持用户自主对General Workspace扩容
 
