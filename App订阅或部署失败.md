@@ -1,6 +1,6 @@
 ## App订阅或部署失败
 
-App没有成功部署，主要有两种情况，一是App订阅失败，二是App订阅成功（即UI上显示订阅成功），但部署失败。其中，有多种情况会导致App订阅失败，而App订阅失败，也较好排查，一般通过UI就可以看出。常见的主要有以下几种情况。
+App没有成功部署，主要有两种情况，一是App订阅失败，二是App订阅成功（即UI上显示订阅成功），但部署失败。其中，App订阅失败，较好排查，一般通过UI就可以看出；Appd订阅成功，部署失败，需要排查服务的log信息，才能确定失败原因。以下主要列出常见的几种App订阅或部署失败原因。
 
 - 订阅号User订阅App失败  
 
@@ -77,7 +77,7 @@ App没有成功部署，主要有两种情况，一是App订阅失败，二是Ap
 
 - 当App订阅成功后，即UI上已经提示如下图信息，等待5min左右，namespace仍然没有部署订阅的App，那么App可能已经部署失败了。App部署失败，需要去排查Catalog api及Appbuy api的log信息，才能得出App部署失败的确切原因。
 
- ![subscription success](/image/subscription-success.png)
+     ![subscription success](/image/subscription-success.png)
 
     - App部署失败常见的几种情况
         - 空间资源不够
@@ -92,4 +92,4 @@ App没有成功部署，主要有两种情况，一是App订阅失败，二是Ap
 
         若App部署失败，请联系WISE-PaaS.SRE（WISE-PaaS.SRE@advantech.com）解决，并说明Appbuy订阅及部署情况。
 
-
+注：上述仅列出了常见的App订阅或部署失败原因，如果在App订阅过程中还遇到其他问题，请联系WISE-PaaS.SRE（WISE-PaaS.SRE@advantech.com），并说明订阅情况。
